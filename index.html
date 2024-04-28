@@ -25,8 +25,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="plugin/components/Font Awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="plugin/whatsapp-chat-support.css">
+
+    <link rel="stylesheet" href="./plugin/components/Font Awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./plugin/whatsapp-chat-support.css">
 
 </head>
 
@@ -409,7 +410,7 @@
               <a href="./form.html" class="features-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/envase3.png" alt="">
+                  <img src="./assets/images/envase5.png" alt="">
                 </div>
 
                 <h3 class="card-title">Paso 5:  <p>
@@ -426,7 +427,7 @@
               <a href="./form.html" class="features-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/envase3.png" alt="">
+                  <img src="./assets/images/envase6.png" alt="">
                 </div>
 
                 <h3 class="card-title">Paso 6:  <p>
@@ -497,7 +498,7 @@
                       
                     </div>
 
-                    <a href="./asesoriadecompra.html" class="read-more-btn">Leer mas</a>
+                    <a href="./asesoriadecompra.html" class="read-more-btn"></a>
                   </div>
 
                 </div>
@@ -549,7 +550,7 @@
                       
                     </div>
 
-                    <a href="./comprarenchina.html" class="read-more-btn">Leer mas</a>
+                    <a href="./comprarenchina.html" class="read-more-btn"></a>
                   </div>
 
                 </div>
@@ -602,7 +603,7 @@
                       
                     </div>
 
-                    <a href="./mercadoyiwu.html" class="read-more-btn">Leer mas</a>
+                    <a href="./mercadoyiwu.html" class="read-more-btn"></a>
                   </div>
 
                 </div>
@@ -614,7 +615,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/blog-3.png" alt=""
+                  <img src="./assets/images/blog-4.jpg" alt=""
                     class="w-100">
                 </figure>
 
@@ -655,7 +656,7 @@
                       
                     </div>
 
-                    <a href="./mercadoyiwu.html" class="read-more-btn">Leer mas</a>
+                    <a href="./mercadoyiwu.html" class="read-more-btn"></a>
                   </div>
 
                 </div>
@@ -667,7 +668,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/blog-3.png" alt=""
+                  <img src="./assets/images/blog-5.jpg" alt=""
                     class="w-100">
                 </figure>
 
@@ -708,7 +709,7 @@
                       
                     </div>
 
-                    <a href="./mercadoyiwu.html" class="read-more-btn">Leer mas</a>
+                    <a href="./mercadoyiwu.html" class="read-more-btn"></a>
                   </div>
 
                 </div>
@@ -720,7 +721,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/blog-3.png" alt=""
+                  <img src="./assets/images/blog-6.png" alt=""
                     class="w-100">
                 </figure>
 
@@ -761,7 +762,7 @@
                       
                     </div>
 
-                    <a href="./mercadoyiwu.html" class="read-more-btn">Leer mas</a>
+                    <a href="./mercadoyiwu.html" class="read-more-btn"></a>
                   </div>
 
                 </div>
@@ -1063,6 +1064,50 @@
 
 
 
+   <!-- Button Whatsapp Structure -->
+   <div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
+    <div class="wcs_button_label">
+            Contáctanos
+        </div>  
+    <div class="wcs_button wcs_button_circle">
+        <span class="fa fa-whatsapp"></span>
+    </div>  
+ 
+    <div class="wcs_popup">
+        <div class="wcs_popup_close">
+            <span class="fa fa-close"></span>
+        </div>
+        <div class="wcs_popup_header">
+            <span class="fa fa-whatsapp"></span>
+            <strong>Servicio al cliente</strong>
+            
+            <div class="wcs_popup_header_description">¿Necesidad de ayuda? Chatea con nosotros en Whatsapp</div>
+
+        </div>  
+        <div class="wcs_popup_input" 
+            data-number="541123456789"
+            data-availability='{ "monday":"07:00-22:30", "tuesday":"07:00-22:30", "wednesday":"07:7030-22:30", "thursday":"07:00-22:30", "friday":"07:00-22:30", "saturday":"09:00-18:30", "sunday":"09:00-22:30" }'>
+            <input type="text" placeholder="Escribir pregunta!" />
+            <i class="fa fa-play"></i>
+        </div>
+        <div class="wcs_popup_avatar">
+            <img src="./assets/images/icono.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+    <!-- jQuery 1.8+ -->
+<script src="plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+    <!-- Plugin JS file -->
+<script src="plugin/components/moment/moment.min.js"></script>
+<script src="plugin/components/moment/moment-timezone-with-data.min.js"></script> <!-- spanish language (es) -->
+<script src="plugin/whatsapp-chat-support.js"></script>
+<script>
+   $('#button-w').whatsappChatSupport({
+        defaultMsg : '',
+    });
+</script>
 
 
 
