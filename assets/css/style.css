@@ -884,7 +884,7 @@ button, a { transition: var(--transition); }
 .features-card .card-title p {
   color: var(--dark-jungle-green);
   font-family: var(--ff-poppins);
-  font-size: 15px;
+  font-size: 10px;
   font-weight: var(--fw-600);
   text-align: center;
   transition: var(--transition);
@@ -1333,6 +1333,8 @@ button, a { transition: var(--transition); }
     height: 80px;
     font-size: 32px;
   }
+
+  .features-card .card-title p {font-size: 15px; }
 
   .features-card .card-title { --fs-6: 1.125rem; }
 
