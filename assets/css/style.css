@@ -281,6 +281,7 @@ button, a { transition: var(--transition); }
 .header-top {
   background: var(--prussian-blue);
   padding-block: 15px;
+  padding-top: 90px;
 }
 
 .header-top .container,
@@ -411,7 +412,7 @@ button, a { transition: var(--transition); }
 .header-bottom-actions {
   background: var(--white);
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   display: flex;
@@ -499,7 +500,7 @@ button, a { transition: var(--transition); }
 
 .about-banner > img {
   max-width: max-content;
-  width: 50%;
+  width: 100%;
 }
 
 .about-banner .abs-img {
@@ -1047,7 +1048,6 @@ button, a { transition: var(--transition); }
 .footer {
   background: var(--raisin-black-1);
   color: var(--white);
-  margin-bottom: 68px;
 }
 
 .footer .container { padding-inline: 30px; }
@@ -1261,7 +1261,7 @@ button, a { transition: var(--transition); }
    * HEADER
    */
 
-  .header-top { padding-block: 5px; }
+  .header-top { padding-block: 5px;}
 
   .header-top .wrapper { margin-left: auto; }
 
